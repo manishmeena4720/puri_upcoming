@@ -1,0 +1,261 @@
+/*
+	Booking Style
+*/
+.default-template-inner-page {
+	margin: 80px auto;
+}
+#calendar .ui-widget-content {
+	background:#eff3f5 none repeat scroll 0 0;
+	vertical-align:middle;
+	text-align:center;
+	border-color:#e6eaec;
+}
+#calendar .fc-grid .fc-day-number {
+	float:none;
+	height: 45px;
+	width: 45px;
+	border-radius:50%;
+	margin:auto;
+	line-height:45px;
+	cursor:pointer;
+}
+#calendar .ui-state-highlight, 
+#calendar.ui-widget-content .ui-state-highlight, 
+#calendar .ui-widget-header .ui-state-highlight {
+	border-color:#e6eaec;
+}
+#calendar .ui-state-highlight .fc-day-number {
+	background-color:#31a2e1;
+	color:#ffffff;
+}
+#calendar .fc-day.ui-widget-content .fc-day-number:hover {
+	transition: all 0.5s;
+	-webkit-transition:all 0.5s;
+	background-color:#435061 !important;
+	color:#ffffff;
+}
+#calendar .fc-day.ui-widget-content.booked {
+	pointer-events:none;
+}
+#calendar .fc-day.ui-widget-content.booked .fc-day-number {
+	background-color:#c8d0d4 !important;
+	color:#ffffff;
+}
+#calendar .fc-event-container {
+	//display:none;
+}
+#calendar .ui-widget-header{
+ background: #ff551a none repeat scroll 0 0;
+    border: medium none !important;    
+    font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.5;
+    text-transform: uppercase;
+    border-top: 1px solid #ff7241 !important;
+}
+#calendar .fc-header tr td {
+	background: #ff551a none repeat scroll 0 0;
+	padding: 30px 0 20px 0;
+}
+#calendar .fc-header tr td span.fc-header-title h2 {
+	font-size: 27px;
+	color: #ffffff;
+	font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    padding: 0;
+    text-transform: unset;
+}
+#calendar .fc-button.fc-button-prev.ui-state-default.ui-corner-left.ui-corner-right {
+	margin-left: 45px;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	background:#ff6d3a !important;
+	border:none;
+	color:#ffffff;
+	text-align:center;
+	line-height:50px;
+}
+#calendar .fc-button.fc-button-next.ui-state-default.ui-corner-left.ui-corner-right {
+	margin-right: 45px;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	background:#ff6d3a !important;
+	border:none;
+	color:#ffffff;
+	text-align:center;
+	line-height:50px;
+	display:block;
+	float:right;
+}
+#calendar .fc-button.fc-button-next.ui-state-default.ui-corner-left.ui-corner-right .fc-text-arrow{
+	display:block;
+}
+.page-template-property-booking .ui-widget-content, 
+.page-template-property-booking .ui-widget-header,
+.ui-widget-content[aria-describedby="addbooking_dialog"],
+.ui-widget-content[aria-describedby="addbooking_dialog"] .ui-widget-header {
+	background: #435061 none repeat scroll 0 0;
+	border: 1px solid #435061;
+	
+}
+.page-template-property-booking .ui-widget-header,
+.ui-widget-content[aria-describedby="addbooking_dialog"] .ui-widget-header {
+	font-size:23px;
+	font-family:lato;
+	font-weight:100;
+	text-transform:uppercase;
+}
+.page-template-property-booking .ui-widget-content {
+	//padding:65px 45px; 
+}
+.page-template-property-booking .ui-widget-overlay {
+  background: #2a2e34 none repeat scroll 0 0;
+  opacity: 0.86;
+}
+.page-template-property-booking > .rounded.hasDatepicker,
+.page-template-property-booking .bookinginput > input, 
+.page-template-property-booking .bookinginput  > textarea, 
+.page-template-property-booking > select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height:30px !important;
+    border:none !important;
+    border-bottom: 1px solid #586679 !important;
+    color:#ffffff;
+    margin-bottom:15px;
+}
+.page-template-property-booking .btn.dropdown-toggle.btn-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height:30px !important;
+    border:none !important;
+    border-bottom: 1px solid #586679 !important;
+    color:#ffffff;
+    margin-bottom:15px;
+}
+.page-template-property-booking .dropdown-menu.open,
+.page-template-property-booking .dropdown-menu {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+	color:#ffffff;
+}
+.dropdown-menu > li > a {
+	color:#000000 !important;
+}
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover {
+	color:#333333 !important;
+}
+.btn-group.bootstrap-select{
+	width:100% !important;
+}
+.bookinglavel > label {
+	color: #8a95a3;
+}
+#ui-datepicker-div {
+	border: 1px solid #75808d; 
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 1.3em !important;
+}
+.ui-datepicker-calendar {
+	color:#ffffff;
+}
+.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-next {
+  height: 1.2em !important;
+  position: absolute;
+  top: 12px !important;
+  width: 1.2em !important;
+}
+.asterik {
+	color:#31a2e1 !important;
+}
+.ui-datepicker-prev.ui-corner-all:hover,
+.ui-datepicker-next.ui-corner-all:hover {
+	background:none !important;
+	background-color:#ffffff !important;
+	border:none !important;
+	border-radius:0px;
+}
+.ui-datepicker-calendar th {
+	font-family: 'Montserrat', sans-serif;	
+}
+.ui-datepicker-calendar .ui-state-default {
+	background:none !important;
+	border: 1px solid #75808d !important;
+	font-family: 'Montserrat', sans-serif; 
+	text-align:center;
+	color:#8a95a3 !important;
+}
+.ui-datepicker-calendar .ui-state-default:hover {
+	color:#31a2e1 !important;
+}
+.ui-datepicker-calendar .ui-state-default.ui-state-active {
+	background-color:#31a2e1 !important;
+	color:#ffffff !important;
+}
+.ui-button.ui-widget.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close {
+	background:rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 1px solid #75808d;
+	border-radius: 50%;
+	height: 40px !important;
+	width: 40px !important;
+	color:#ffffff;
+}
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close  .ui-state-default.ui-icon {
+	background-image:'';
+}
+.fc-day.fc-sun.ui-widget-content.fc-first > div {
+	display: flex;
+}
+.fc-day.fc-sun.ui-widget-content.fc-first > div > .fc-day-number{
+	display: inline-block;
+}
+.ui-dialog .ui-dialog-buttonset button,
+.ui-dialog .ui-dialog-buttonset button.customButton  {
+	color:#ffffff;
+	border:none;
+	border-radius:0px;
+	height:45px;
+	text-transform:uppercase;
+	font-size:16px;
+}
+.ui-dialog .ui-dialog-buttonset button {
+	background:#606c7c !important;
+}
+.ui-dialog .ui-dialog-buttonset button.customButton {
+	background:#31a2e1 !important;
+	width:145px;
+}
+.wrapper.ui-dialog-content.ui-widget-content {
+	height:auto !important;
+}
+.scpd_step .dropdown-menu > li > a {
+	color:#333333 !important;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+	padding: 60px 40px !important;
+}
+.scpd_checkout_steps .scpd_checkout_title ,
+.scpd_payment_method .scpd_checkout_title, 
+.scpd_overview .scpd_checkout_title{
+	background-color:#435061;	
+}
+
+#frmshoppingcart th ,
+.scpd_checkout_steps .scpd_checkout_title.active ,
+.scpd_payment_method .scpd_checkout_title.active , 
+.scpd_overview .scpd_checkout_title.active {
+	background-color:#4CBDFC;	
+}
+.fc-header {
+	margin: 0;
+}
+.fc-header td {
+	border: none;
+}
